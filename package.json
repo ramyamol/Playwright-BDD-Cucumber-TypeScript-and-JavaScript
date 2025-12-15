@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "pretest": "npx playwright install",
+    "cucumber": "cucumber-js",
+    "test:playwright": "playwright test",
+    "test": "npm run cucumber"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.3.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.5.2",
+    "allure-commandline": "^2.36.0",
+    "allure-cucumberjs": "^3.4.3",
+    "cucumber-html-reporter": "^7.2.0",
+    "cypress": "^12.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "overrides": {
+    "@cucumber/cucumber": "^12.3.0"
+  }
+}

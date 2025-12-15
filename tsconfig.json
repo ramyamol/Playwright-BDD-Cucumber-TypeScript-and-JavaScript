@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node", "playwright"]
+  },
+  "include": [
+    "tests/**/*.ts",
+    "pages/**/*.ts",
+    "features/**/*.ts",
+    "tests/SelfLearning.spec.ts",
+    "tests/MyTest.spec.ts",
+    "tests/example.spec.ts"
+  ]
+}
+
+
